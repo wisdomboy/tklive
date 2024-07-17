@@ -1,0 +1,22 @@
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: 123456
+  db: 0
+  pool_size: 10
+  channel_name: "stop_service_channel"
+log:
+  log_file_path: ""
+  max_file_size: 100
+  max_backups: 50
+  max_age: 30
+http:
+  protocol: "https"
+  port: 8080
+  ip: "127.0.0.1"
+  cert_file: ""
+  key_file: ""
+  signer_url: "https://sign.af-pay.com:8006/"
+tiktok:
+  pt_username: "test001"
+  tk_username: "valeria.viral"
