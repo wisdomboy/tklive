@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "/;liveProto";
+
+message  signerService{
+  string code = 1;
+  string msg = 2;
+  string live_room_id = 3;
+  string msg_token = 4;
+  string signature = 5;
+  string x_bogus = 6;
+}

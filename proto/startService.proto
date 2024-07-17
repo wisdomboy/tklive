@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "/;liveProto";
+
+message  startService{
+  string platform = 1;
+  string room_id = 2;
+  string live_url = 3;
+  string game_id = 4;
+  string is_test = 5;
+  string nonce = 6;
+  string sign = 7;
+}
